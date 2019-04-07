@@ -103,11 +103,10 @@ export default class StepManagerComponent extends Component {
   /**
    * Holds the value passed to the `currentStep` setter.
    *
-   * @private
    * @type {(StepName | undefined)}
    * @memberof StepManagerComponent
    */
-  private _currentStep: StepName | undefined;
+  _currentStep: StepName | undefined;
 
   /**
    * Callback action to be triggered when the current step changes.
